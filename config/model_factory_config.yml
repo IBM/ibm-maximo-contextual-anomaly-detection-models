@@ -1,0 +1,4 @@
+endpoint_url: 
+train_recipe_endpoint: recipe/supervised-anomaly
+deploy_recipe_endpoint: deployment/monitor/model/create
+create_device_recipe_endpoint: deployment/monitor/device/create

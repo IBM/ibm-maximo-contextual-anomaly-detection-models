@@ -1,0 +1,22 @@
+asset_id_column: Wind_turbine_name
+data_name: Wind_Turbine_train.csv
+device_description: Wind Turbine
+mas_device_name: Wind_Turbine_Test_1
+feature_columns: P_avg,Gb1t_avg,Gb2t_avg,Ws_avg
+feature_names: P_average,Gblt_average,Gb2t_average,Ws_average
+target_columns: Rs_avg 
+target_names: Rs_avg
+timestamp_column: Date_time
+timestamp_format: '%m/%d/%Y %H:%M'
+inference_data_name: Wind_Turbine_test.csv
+feature_map:
+  P_avg: Average Active Power
+  Rs_avg: Average Reactive Power
+  Gb1t_avg: Average Generator Bearing 1 Temperature
+  Gb2t_avg: Average Generator Bearing 2 Temperature
+  Gost_avg: Average Generator Outer Stator Temperature
+  Git_avg: Average Generator Inner Stator Temperature
+  Yt_avg: Average Yaw System Temperature
+  Ot_avg: Average Outdoor Temperature
+  Ws_avg: Average Wind Speed
+  Wa_avg: Average Wind Direction
