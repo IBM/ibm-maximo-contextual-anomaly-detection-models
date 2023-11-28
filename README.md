@@ -26,7 +26,7 @@ Completing the walkthrough should take around 15 minutes, taking into account th
 See [**CONTRIBUTING**](./CONTRIBUTING.md) for more information.
 
 ## License
-This collection of AI cookbooks is licensed under ???. See the [**LICENSE**](LICENSE) file.
+This collection of AI cookbooks is licensed under Apache. See the [**LICENSE**](LICENSE) file.
 
 ## Questions
 Please raise an issue on this repository.
