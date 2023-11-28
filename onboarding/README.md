@@ -16,7 +16,7 @@ After cloning this repository, navigate to the AI cookbooks notebooks.
 ├── onboarding                          <-- Documentation for accelerator is here
 │   ├── README.md                       <-- Instruction file for onboarding
 ├── config                              <-- Configuration files are located here
-│   ├── model_factory_config.yml        <-- Configuration information for model factory setup
+│   ├── model_factory_config.yml        <-- Configuration information for api service setup
 │   └── yt_kpi.yml                      <-- Configuration for data parameters to be provided by user
 ├── cookbooks                           <-- Contains runnable cookbooks to go through the flow
 │   ├── Create_Monitor_Device.ipynb     <-- Cookbook to create a Device on Monitor from the data
@@ -66,7 +66,7 @@ After cloning this repository, navigate to the AI cookbooks notebooks.
 ---
 
 1.  Update the file name of the KPI yaml in [contextual training](cookbooks/contextual_anomaly_train.ipynb) notebook
-2.  Run [contextual anomaly train](cookbooks/contextual_anomaly_train.ipynb) notebook, which calls the model factory service to run training on contextual anomaly recipe
+2.  Run [contextual anomaly train](cookbooks/contextual_anomaly_train.ipynb) notebook, which calls the API service to run training on contextual anomaly recipe
 3.  Monitor the result of the API, and save the result to a yaml file, by running the last 2 cells of the notebook
 
 ## 3. Creating monitor device
