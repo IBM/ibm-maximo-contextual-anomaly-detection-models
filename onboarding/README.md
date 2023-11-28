@@ -20,8 +20,8 @@ After cloning this repository, navigate to the AI cookbooks notebooks.
 │   └── yt_kpi.yml                      <-- Configuration for data parameters to be provided by user
 ├── cookbooks                           <-- Contains runnable cookbooks to go through the flow
 │   ├── Create_Monitor_Device.ipynb     <-- Cookbook to create a Device on Monitor from the data
-│   ├── supervised_anomaly_deploy.ipynb <-- Cookbook to deploy the KPIs after training and device creation
-│   └── supervised_anomaly_train.ipynb  <-- Cookbook to train contextual anomaly model on the data using config
+│   ├── contextual_anomaly_deploy.ipynb <-- Cookbook to deploy the KPIs after training and device creation
+│   └── contextual_anomaly_train.ipynb  <-- Cookbook to train contextual anomaly model on the data using config
 └── data                                <-- Raw data files
     ├── Wind_Turbine.csv                <-- Entire sample wind turbine dataset
     ├── Wind_Turbine_test.csv           <-- Unseen test set for inference
@@ -65,8 +65,8 @@ After cloning this repository, navigate to the AI cookbooks notebooks.
 ## 2. Training
 ---
 
-1.  Update the file name of the KPI yaml in [contextual training](cookbooks/supervised_anomaly_train.ipynb) notebook
-2.  Run [contextual anomaly train](cookbooks/supervised_anomaly_train.ipynb) notebook, which calls the model factory service to run training on contextual anomaly recipe
+1.  Update the file name of the KPI yaml in [contextual training](cookbooks/contextual_anomaly_train.ipynb) notebook
+2.  Run [contextual anomaly train](cookbooks/contextual_anomaly_train.ipynb) notebook, which calls the model factory service to run training on contextual anomaly recipe
 3.  Monitor the result of the API, and save the result to a yaml file, by running the last 2 cells of the notebook
 
 ## 3. Creating monitor device
@@ -81,7 +81,7 @@ After cloning this repository, navigate to the AI cookbooks notebooks.
 ## 4. Deployment of KPIs
 ---
     
-1.  Run [contextual anomaly deploy](../cookbooks/supervised_anomaly_deploy.ipynb) notebook to deploy the KPIs after the training and device creation are completed. In this example cookbook, we are deploying a KPI called `Efficiency`.
+1.  Run [contextual anomaly deploy](../cookbooks/contextual_anomaly_deploy.ipynb) notebook to deploy the KPIs after the training and device creation are completed. In this example cookbook, we are deploying a KPI called `Efficiency`.
 2.  Go to monitor, verify that the KPIs are created [https://tenant1.monitor.masinst1.ibmmam.com/monitor](https://tenant1.monitor.masinst1.ibmmam.com/monitor)
  [<img src="../images/KPI_config.png" width="350"/>](kpi_config.png)
 3.  Add a dashboard from monitor to represent the KPIs along with input sensors <break>
