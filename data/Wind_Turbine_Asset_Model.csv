@@ -1,0 +1,11 @@
+dimension,type,label,columntype
+P_avg,metric,Feature1,NUMBER
+Rs_avg,metric,Feature2,NUMBER
+Gb1t_avg,metric,Feature3,NUMBER
+Gb2t_avg,metric,Feature4,NUMBER
+Gost_avg,metric,Feature5,NUMBER
+Git_avg,metric,Feature6,NUMBER
+Yt_avg,metric,Feature7,NUMBER
+Ot_avg,metric,Feature8,NUMBER
+Ws_avg,metric,Feature9,NUMBER
+Wa_avg,metric,Feature10,NUMBER
