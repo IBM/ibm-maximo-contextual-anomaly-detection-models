@@ -1,4 +1,4 @@
-# Supervised Anomaly Detection Accelerator
+# Contextual Anomaly Detection Accelerator Guide
 ---
 
 ## Overview
