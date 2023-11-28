@@ -10,9 +10,9 @@ Two typical examples:
 - Predicting Anomalies/Alarms in Electrical Transformers by analyzing Power Quality, Sensor, Sensor Warning, and Work Order data
 
 ## Onboarding Guide
-This repository includes a comprehensive guide for building and deploying a conformal prediction based model using AI Model Factory's - Supervised Anomaly Recipe (available as API endpoint) for Maximo Monitor Application. It provides all the necessary resources, including 
+This repository includes a comprehensive guide for building and deploying a conformal prediction based model using Supervised Anomaly Recipe (available as API endpoint) for Maximo Monitor Application. It provides all the necessary resources, including 
 1. Sample data for `Wind Turbine` Asset
-2. AI Cookbook to facilitate model training using `AI Model Factory` Service, 
+2. AI Cookbook to facilitate model training using API Service, 
 3. Creating an IoT device on `Monitor`, 
 4. Deploying and configuring the `KPI` endpoints to the created device, 
 5. Conducting inference with real-time data streaming into `Monitor`,  
