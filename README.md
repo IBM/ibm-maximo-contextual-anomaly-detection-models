@@ -9,6 +9,9 @@ Two typical examples:
 - Predicting Anomalies/Alarms in Wind Turbine Gearboxes using Operational, Maintenance, Sensor Warning, and Weather Data
 - Predicting Anomalies/Alarms in Electrical Transformers by analyzing Power Quality, Sensor, Sensor Warning, and Work Order data
 
+## API Documentation
+API is hosted on [Developer Hub](https://developer.ibm.com/apis/catalog/ai4industry--ibm-maximo-contextual-anomaly-accelerator/Introduction)
+
 ## Onboarding Guide
 This repository includes a comprehensive guide for building and deploying a conformal prediction based model using Contextual Anomaly Recipe (available as API endpoint) for Maximo Monitor Application. It provides all the necessary resources, including 
 1. Sample data for `Wind Turbine` Asset
